@@ -1,0 +1,96 @@
+body{
+  font-family: 'Arial', 'Verdana', 'Helvetica';
+  background-color: #ffffff
+}
+/*start of navigation bar styling*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{ 
+  border: 3px solid #000;
+}
+.icon-bar {
+  color: black;
+  background-color: black;
+  border: solid !important
+}
+#header-nav{
+  background-color:#999999;  
+  border:2px solid #000; 
+  border-radius: 0;
+}
+.navbar-nav{
+  margin:0 -15px !important;
+}
+.navbar-brand{
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.navbar-brand h1{
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-left: 15px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;  
+}
+#nav-list{
+  border:3px solid;
+}
+#nav-list:nth-child(3){
+  border-bottom:3;
+}
+#nav-list li{
+  background:#fff;
+  border-bottom:3px solid;
+}
+#nav-list li:nth-child(3){
+  border-bottom:1px;
+}
+#nav-list li a{
+  color:#000;
+  font-weight: 800;
+  line-height: 8px 
+}
+/*end of navigation bar styling*/
+/*start of menu styling*/
+.menu{ 
+  margin:15px; 
+}
+.menu{
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 15px;
+  }
+.main-title{
+  font-weight: bold;
+  margin-top: -3px;
+}
+.menu-content{ 
+  margin-top:40px;
+}
+.menu-item{
+  margin-bottom: 20px;
+  background:#999999;  
+  padding: 10px;
+}
+.menu-item h4 {
+  font-weight: 950;
+  font-size: 20px;
+}
+.menu-item p{
+  font-weight:800;
+  font-size: 16px;
+  padding: 5px 10px;
+  height: 1000px;
+  overflow: hidden;
+}
+@media (max-width:767px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  }
+
+/**end of menu styling**/
+
